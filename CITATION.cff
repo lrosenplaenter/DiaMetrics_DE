@@ -12,6 +12,10 @@ authors:
   - given-names: Leon
     family-names: Rosenplänter
     orcid: 'https://orcid.org/0009-0001-4961-2281'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11103177
+    description: Zenodo Archive
 repository-code: 'https://github.com/lrosenplaenter/DiaMetrics_DE'
 url: 'https://lrosenplaenter.github.io/DiaMetrics_DE'
 abstract: >-
