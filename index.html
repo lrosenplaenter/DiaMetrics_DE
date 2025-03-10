@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
-    DiaMetrics_DE v1.0.0
+    DiaMetrics_DE v1.0.1
     https://github.com/lrosenplaenter/DiaMetrics_DE
-    Copyright (c) 2024 Leon Rosenplänter. 
+    Copyright (c) 2024 - 2025 Leon Rosenplänter. 
     DiaMetrics is available under the MIT license.
 -->
 <html lang="en">
@@ -11,13 +11,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DiaMetrics 1.0</title>
-    <!-- Bootstrap CSS https://getbootstrap.com/docs/5.3/about/license/ -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap CSS https://getbootstrap.com/docs/5.3/about/license/ -->
+    <link rel="stylesheet" href="libs/bootstrap_v5.3.3/bootstrap.min.css">
     <!-- Chart.js https://www.chartjs.org/docs/latest/ -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script type="text/javascript" src="libs/chart.js_v4.4.0/chart.umd.js"></script>
     <!-- chartjs-plugin-dragdata https://github.com/chrispahm/chartjs-plugin-dragdata -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chartjs-plugin-dragdata@2.2.3/dist/chartjs-plugin-dragdata.min.js"></script>
+    <script type="text/javascript" src="libs/chartjs_dragdata_plugin_v2.2.3/chartjs-plugin-dragdata.min.js"></script>
 </head>
 
 <body id ="body">
@@ -513,7 +513,7 @@
 
         <div class="container text-center footer">
             <p class="pt-5 text-secondary">DiaMetrics_DE wurde mit <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16"><path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/></svg>, <a href="https://getbootstrap.com/" class="text-secondary" target="_blank">Bootstrap</a> & <a href="https://www.chartjs.org/" class="text-secondary" target="_blank">Chart.js</a> für die Lehre @ <a href="https://www.uni-giessen.de/de/fbz/fb06/psychologie/abt/p-diagnostik" class="text-secondary" target="_blank">Abteilung für Psychologische Diagnostik</a>, <a href="https://uni-giessen.de" class="text-secondary" target="_blank">Justus-Liebig-Universität Gießen</a> erstellt.</p>
-            <p class="text-secondary">Version 1.0.0 | 
+            <p class="text-secondary">Version 1.0.1 | 
                 <a href="https://github.com/lrosenplaenter/DiaMetrics_DE" class="text-secondary" target="_blank" title="Repository">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
@@ -528,7 +528,7 @@
                         <path d="M15.807.531c-.174-.177-.41-.289-.64-.363a3.765 3.765 0 0 0-.833-.15c-.62-.049-1.394 0-2.252.175C10.365.545 8.264 1.415 6.315 3.1c-1.95 1.686-3.168 3.724-3.758 5.423-.294.847-.44 1.634-.429 2.268.005.316.05.62.154.88.017.04.035.082.056.122A68.362 68.362 0 0 0 .08 15.198a.528.528 0 0 0 .157.72.504.504 0 0 0 .705-.16 67.606 67.606 0 0 1 2.158-3.26c.285.141.616.195.958.182.513-.02 1.098-.188 1.723-.49 1.25-.605 2.744-1.787 4.303-3.642l1.518-1.55a.528.528 0 0 0 0-.739l-.729-.744 1.311.209a.504.504 0 0 0 .443-.15c.222-.23.444-.46.663-.684.663-.68 1.292-1.325 1.763-1.892.314-.378.585-.752.754-1.107.163-.345.278-.773.112-1.188a.524.524 0 0 0-.112-.172ZM3.733 11.62C5.385 9.374 7.24 7.215 9.309 5.394l1.21 1.234-1.171 1.196a.526.526 0 0 0-.027.03c-1.5 1.789-2.891 2.867-3.977 3.393-.544.263-.99.378-1.324.39a1.282 1.282 0 0 1-.287-.018Zm6.769-7.22c1.31-1.028 2.7-1.914 4.172-2.6a6.85 6.85 0 0 1-.4.523c-.442.533-1.028 1.134-1.681 1.804l-.51.524-1.581-.25Zm3.346-3.357C9.594 3.147 6.045 6.8 3.149 10.678c.007-.464.121-1.086.37-1.806.533-1.535 1.65-3.415 3.455-4.976 1.807-1.561 3.746-2.36 5.31-2.68a7.97 7.97 0 0 1 1.564-.173Z"/>
                     </svg></a>
             </p>
-            <p class="text-secondary">Copyright (c) 2024 <a href="https://orcid.org/0009-0001-4961-2281" class="text-secondary" target="_blank">Leon Rosenplänter</a></p>
+            <p class="text-secondary">Copyright (c) 2024 - 2025 <a href="https://orcid.org/0009-0001-4961-2281" class="text-secondary" target="_blank">Leon Rosenplänter</a></p>
         </div>
     </div>
 
@@ -929,7 +929,7 @@
 
 
     <!-- Bootstrap JS https://getbootstrap.com/docs/5.3/about/license/ -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap_v5.3.3/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript" src="tutorial.js"></script>
     <script type="text/javascript" src="data.js"></script>

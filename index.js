@@ -1,7 +1,7 @@
 /*
- * DiaMetrics_DE v1.0.0
+ * DiaMetrics_DE v1.0.1
  * https://github.com/lrosenplaenter/DiaMetrics_DE
- * Copyright (c) 2024 Leon Rosenplänter. 
+ * Copyright (c) 2024 - 2025 Leon Rosenplänter. 
  * DiaMetrics is available under the MIT license.
  */
 
