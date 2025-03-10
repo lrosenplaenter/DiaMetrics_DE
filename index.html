@@ -610,6 +610,26 @@
         </div>
     </div>
 
+    <!-- Analytics Dialogue-->
+    <div class="modal fade" id="analytics_consent" tabindex="-1" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">🍪 Bevor wir starten: Möchtest du Cookies?</h1>
+                </div>
+                <div class="modal-body">
+                    <p>Wir möchten Nutzungsstatistiken sammeln, um etwas darüber zu erfahren, wie unsere Website in der realen Welt genutzt wird.</p>
+                    <p>Zu diesem Zweck verwenden wir Google Analytics. Du kannst der Erfassung und Verarbeitung deiner Daten zustimmen oder widersprechen.</p>
+                    <p>Wenn du zustimmst, werden deine Daten in Übereinstimmung mit den <a target="_blank" href="https://policies.google.com/privacy">Datenschutzbestimmungen von Google</a> verarbeitet.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-target="#tutorial-0" data-bs-toggle="modal">Ich stimme nicht zu.</button>
+                    <button type="button" class="btn btn-success" data-bs-target="#tutorial-0" data-bs-toggle="modal" onclick="enableTracking()">Ich stimme zu.</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Tutorial -->
     <!-- 0: Start or Skip Tutorial -->
     <div class="modal fade" id="tutorial-0" tabindex="-1" data-bs-backdrop="static">
@@ -931,6 +951,7 @@
     <!-- Bootstrap JS https://getbootstrap.com/docs/5.3/about/license/ -->
     <script type="text/javascript" src="libs/bootstrap_v5.3.3/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="analytics.js"></script>
     <script type="text/javascript" src="tutorial.js"></script>
     <script type="text/javascript" src="data.js"></script>
 </body>

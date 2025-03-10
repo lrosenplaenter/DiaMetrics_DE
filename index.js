@@ -125,7 +125,8 @@ if (window.innerWidth <= 768) {
 } else if (!window.matchMedia('(pointer:fine)').matches) {
     display_device_alert ();
 } else if (show_tutorial_var == true){
-    show_tutorial()
+    show_analyticsConsent ();
+    //show_tutorial() 
 }
 
 //display_device_alert()
@@ -134,11 +135,17 @@ function display_device_alert() {
     modal.show();
 }
 
-/*** Display Tutorial ***/
-function show_tutorial () {
-    var modal = new bootstrap.Modal(document.getElementById('tutorial-0'));
+//display Google Analytics dialogue
+function show_analyticsConsent() {
+    var modal = new bootstrap.Modal(document.getElementById('analytics_consent'));
     modal.show();
 }
+
+/*** Display Tutorial ***/
+/*function show_tutorial () {
+    var modal = new bootstrap.Modal(document.getElementById('tutorial-0'));
+    modal.show();
+}*/
 
 /*** generating data depending on the picked example & other funtionality ***/
 function generate_data (status) {
